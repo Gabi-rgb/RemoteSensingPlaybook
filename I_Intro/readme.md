@@ -38,7 +38,7 @@ Remote sensing data has different types of resolution that affect how it can be 
 
 - 🟡 **Spatial resolution**: The size of one pixel on the ground. Example: 10 m (Sentinel-2), 30 m (Landsat)
 - 🔵 **Spectral resolution**: The number and width of spectral bands. Example: RGB, NIR, SWIR
-- 🔁 **Temporal resolution**: How often the satellite revisits the same location. Example: Sentinel-2 = ~5 days
+- 🔴 **Temporal resolution**: How often the satellite revisits the same location. Example: Sentinel-2 = ~5 days
 - ⚫ **Radiometric resolution**: The sensitivity of the sensor to detect slight differences in energy. Example: 8-bit (0–255), 16-bit (0–65535)
 
 Understanding these helps you choose the right data for your analysis.
@@ -78,18 +78,5 @@ Useful Python libraries:
 
 ## 📚 What's Next?
 You can continue to:
-- 👉 [Go to Chapter II – Python Libraries for Remote Sensing](../II_libraries/remote_sensing_libraries.md) *(link to be updated)*
+- [Go to Chapter II – Python Libraries for Remote Sensing](../II_libraries/remote_sensing_libraries.md) *(link to be updated)*
 - Or return to the [Project Overview](../README.md)
-
----
-
-## 🖼️ Notes on Adding Images in Markdown
-To include an image in a markdown cell:
-```markdown
-![Alt Text](relative/or/full/path/to/image.png)
-```
-Example:
-```markdown
-![Sensor Types](images/sensor_types.png)
-```
-Make sure the image is in your repository folder (e.g., in `images/`).
