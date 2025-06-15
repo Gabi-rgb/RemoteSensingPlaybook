@@ -10,12 +10,13 @@ Whether you're just starting out, revising key concepts, or exploring tools like
 - Practice with well-commented Python code and Jupyter Notebooks  
 - Share knowledge and make geospatial analysis more accessible  
 
-## Topics covered
-1. Introduction to remote sensing  
-2. Key Python libraries for geospatial data (GDAL, NumPy, etc.)  
-3. Downloading data from public sources and APIs  
-4. Preprocessing: projection, alignment, etc.  
-5. (To be continued...)
+## Project Structure
 
----
+| Chapter | Title                                           | Description                                  |
+|--------|--------------------------------------------------|----------------------------------------------|
+| I      | [Introduction to Remote Sensing](I_Intro/)       | Core concepts, sensors, resolutions, etc.    |
+| II     | [Python Libraries for Remote Sensing](II_Libraries/) | Overview of key geospatial Python tools     |
+| III    | *To come...*                                     | Downloading satellite data (web/API)         |
+| IV     | *To come...*                                     | Preprocessing: alignment, reprojection, etc. |
 
+More chapters will be added progressively as I learn and build.
