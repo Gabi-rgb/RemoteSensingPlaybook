@@ -1,13 +1,13 @@
-# 📘 Chapter I: Introduction to Remote Sensing
+# Chapter I: Introduction to Remote Sensing
 
-## 🟢 1. What is Remote Sensing?
+## 1. What is Remote Sensing?
 Remote sensing is the science of acquiring information about the Earth's surface **without being in direct contact with it**. It generally uses **satellites or aircraft** to collect data by detecting the energy that is **reflected** or **emitted** from the Earth's surface.
 
 It allows us to observe and monitor the Earth over time and at various scales.
 
 ---
 
-## 🟢 2. Why is Remote Sensing Useful?
+## 2. Why is Remote Sensing Useful?
 Remote sensing has a wide range of real-world applications:
 
 - 🌱 **Agriculture**: crop health monitoring, drought detection
@@ -20,7 +20,7 @@ It helps scientists, governments, and communities to **analyze**, **predict**, a
 
 ---
 
-## 🟢 3. Active vs Passive Remote Sensing
+## 3. Active vs Passive Remote Sensing
 There are two main types of remote sensing:
 
 | Type    | Description                                 | Example Sensors        |
@@ -33,7 +33,7 @@ There are two main types of remote sensing:
 
 ---
 
-## 🟢 4. Understanding Different Types of Resolution
+## 4. Understanding Different Types of Resolution
 Remote sensing data has different types of resolution that affect how it can be used:
 
 - 🟡 **Spatial resolution**: The size of one pixel on the ground. Example: 10 m (Sentinel-2), 30 m (Landsat)
@@ -45,7 +45,7 @@ Understanding these helps you choose the right data for your analysis.
 
 ---
 
-## 🟢 5. Common Earth Observation Satellites
+## 5. Common Earth Observation Satellites
 Here are some of the most commonly used Earth observation satellites:
 
 | Satellite     | Organization | Sensor Type | Primary Uses                      |
@@ -59,7 +59,7 @@ To learn more about each satellite, you can visit their respective official webs
 
 ---
 
-## 🟢 6. Why Python for Remote Sensing?
+## 6. Why Python for Remote Sensing?
 This project focuses on **Python** because:
 
 - It is widely used in geospatial data science
