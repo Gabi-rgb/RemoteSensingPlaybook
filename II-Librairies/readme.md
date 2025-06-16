@@ -12,48 +12,64 @@ Creating a virtual environment offers several important benefits when working wi
 
 In this example, I’ll show you how to create a virtual environment using **VSCode** and set it up as a **Jupyter kernel**.  
 Warning : This example assumes you're using **Windows**, and that you have **Python installed**.  
-If not, download it here: https://www.python.org/
+If not, [Download Python here](https://www.python.org/)
 
-**First step :**
+### First step
   Open the terminal in VSCode and type the following command. remote_sensing_env will be the name of your virtual environments. You can also specify a Python version if multiple versions are installed on your system.
+ 
       ```bash
       python -m venv remote_sensing_env
       ```
   Then activated with:
+  
       ```bash
       remote_sensing_env\Scripts\activate
       ```
+      
   If you see  *(remote_sensing_env) PS C:\Users\example\project\env\kernel>* everything is ok.
+  
 **Second step:**
+
   Once the environment is activated, we are going to install Jupyter and ipykernel.
+  
       ```bash
       pip install jupyter ipykernel
       ```
+      
   Then link this environment to Jupyter with.   --name is the internal identifier used by Jupyter.  --display-name is what you will see in the Jupyter interface
+     
       ```bash
       python -m ipykernel install --user --name=remote_sensing_env --display-name "Python (Remote Sensing)"
       ```
+      
 **How to pip in the environment:**
+
   To pip a new libraries, you need to be in the environment. If you don't see *(remote_sensing_env) PS C:\Users\example\project\env\kernel>* in the terminal, you are not in. So type this :
+  
       ```bash
       remote_sensing_env\Scripts\activate
       ```
-  Then you can pip whatever you want. Like numpy for example
+      
+  Then you can pip whatever you want. Like numpy for example.
+  
       ```bash
       pip install numpy
       ```
+      
 **Share or Reuse your environment**
+
   When you have created your environment and installed some libraries, you can save their name and version on a requirement.txt. This txt will be usefull when you are on a new pc or when you need to share a project.
   To do so, go in your first environment and write :
+  
       ```bash
       pip freeze > requirements.txt
       ```
+      
   Create a new environment (see step 1) and write :
+  
       ```bash
       pip install -r requirements.txt
       ```
-
-  
 ---
 
 ## 2. Core Python Tools: NumPy and Matplotlib
