@@ -6,9 +6,9 @@
 
 Before diving into libraries, it's important to understand virtual environments.  
 Creating a virtual environment offers several important benefits when working with Python projects:
-  -It isolates your project dependencies, meaning each project can have its own versions of libraries without interfering with others.
-  -It prevents version conflicts, especially when you work on multiple projects requiring different versions of the same package.
-  -It makes your work reproducible, as you can easily share your environment setup with others or re-create it on a different machine using a requirements.txt or environment.yml file
+-It isolates your project dependencies, meaning each project can have its own versions of libraries without interfering with others.
+-It prevents version conflicts, especially when you work on multiple projects requiring different versions of the same package.
+-It makes your work reproducible, as you can easily share your environment setup with others or re-create it on a different machine using a requirements.txt or environment.yml file
 
 In this example, I’ll show you how to create a virtual environment using **VSCode** and set it up as a **Jupyter kernel**.  
 Warning : This example assumes you're using **Windows**, and that you have **Python installed**.  
