@@ -14,7 +14,7 @@ In this example, I’ll show you how to create a virtual environment using **VSC
 Warning : This example assumes you're using **Windows**, and that you have **Python installed**.  
 If not, [Download Python here](https://www.python.org/)
 
-### First step
+### First step:
   Open the terminal in VSCode and type the following command. remote_sensing_env will be the name of your virtual environments. You can also specify a Python version if multiple versions are installed on your system.
  
       ```bash
@@ -28,7 +28,7 @@ If not, [Download Python here](https://www.python.org/)
       
   If you see  *(remote_sensing_env) PS C:\Users\example\project\env\kernel>* everything is ok.
   
-**Second step:**
+### *Second step:*
 
   Once the environment is activated, we are going to install Jupyter and ipykernel.
   
