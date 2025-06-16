@@ -17,11 +17,11 @@ If not, [Download Python here](https://www.python.org/)
 ### *First step :*
   Open the terminal in VSCode and type the following command. remote_sensing_env will be the name of your virtual environments. You can also specify a Python version if multiple versions are installed on your system.
        
-  python -m venv remote_sensing_env
+    python -m venv remote_sensing_env
   
   Then activated with:
   
-  remote_sensing_env\Scripts\activate
+    remote_sensing_env\Scripts\activate
  
   If you see  *(remote_sensing_env) PS C:\Users\example\project\env\kernel>* everything is ok.
   
