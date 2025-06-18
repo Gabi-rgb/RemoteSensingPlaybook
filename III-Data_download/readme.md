@@ -1,4 +1,4 @@
-# 4. Downloading Remote Sensing Data
+# Chapter III : Downloading Remote Sensing Data
 
 Remote sensing data is freely available from several platforms, but understanding where to get it and how to retrieve it efficiently is a key skill.
 
@@ -40,3 +40,8 @@ While much of the data is free and open, some restrictions may apply:
 - For very large requests, providers may throttle the download speed or limit the number of queries.
 
 Be sure to read the terms of use and understand the access policy of each platform.
+
+## What's Next?
+You can continue to:
+- Go to Chapter [IV – Downloading Remote Sensing Data](../III-Data_download/)
+- Or return to the [Project Overview](../)
