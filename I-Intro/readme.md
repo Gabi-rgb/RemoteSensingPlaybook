@@ -1,4 +1,4 @@
-# Chapter I: Introduction to Remote Sensing
+# Chapter I : Introduction to Remote Sensing
 
 ## 1. What is Remote Sensing?
 Remote sensing is the science of acquiring information about the Earth's surface **without being in direct contact with it**. It generally uses **satellites or aircraft** to collect data by detecting the energy that is **reflected** or **emitted** from the Earth's surface.
