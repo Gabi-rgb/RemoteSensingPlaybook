@@ -1,4 +1,4 @@
-# 📘 Chapter II: Python Libraries for Remote Sensing
+# Chapter II: Python Libraries for Remote Sensing
 
 ---
 
@@ -123,6 +123,7 @@ You will also find combinations of these tools with remote sensing data formats 
 
 ---
 
+- [Go to Chapter III – Downloading Remote Sensing Data](../III_data_download/readme.md)
+- Or return to the [Project Overview](../README.md)
 
-➡️ [Go to Chapter III – Downloading Remote Sensing Data](../III_data_download/data_download.md)
  
