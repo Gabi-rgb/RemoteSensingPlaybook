@@ -60,7 +60,7 @@ If not, [Download Python here](https://www.python.org/)
 
 ## 2. Core Python Tools: NumPy and Matplotlib
 
-At the heart of Python's data science ecosystem are **NumPy** and **Matplotlib**.
+At the heart of Python's data science ecosystem are [**NumPy**](https://numpy.org/) and [**Matplotlib**](https://matplotlib.org/).
 
 - **NumPy** provides support for **multidimensional arrays (ndarrays)**, which are essential when working with raster data like satellite images. It allows fast, efficient operations on pixel values (mathematical, logical, etc.).
 
@@ -72,12 +72,24 @@ These libraries are **powerful and lightweight**, making them ideal for remote s
 
 ## 3. Installing GDAL (Geospatial Data Abstraction Library)
 
-GDAL is one of the most important libraries in remote sensing. It allows you to:
+[GDAL](https://gdal.org/en/stable/) is one of the most important libraries in remote sensing. It allows you to:
 - Read and write geospatial raster and vector formats (GeoTIFF, Shapefile, etc.)
 - Handle metadata and coordinate systems
 - Perform raster calculations and reprojections
 
-**Note**: GDAL can be tricky to install due to dependencies. You will find a dedicated section [below / or linked here] with tips and examples.
+**Note**: GDAL can be tricky to install due to dependencies. I will explain how to do it below.
+
+### *First step*
+You need to download a .whl. You can find this files [here](https://github.com/cgohlke/geospatial-wheels/releases).
+Look into the asset and find the correct .whl. We are searching for a file looking like this : *gdal-3.10.2-cp312-cp312-win_amd64.whl*.
+3.10.2 is gdal version, cp312 is the python version(3.12 here), and finally win_amd64 is your systems (windows 64 bit here).
+Choose the .whl who satisfy your profile and your need.
+
+### *Second step*
+Next enter your virtual environment (see How to pip in the environment) and type :
+
+  pip install C:\chemin\vers\fichier\gdal-3.10.2-cp312-cp312-win_amd64.whl
+
 
 ---
 
