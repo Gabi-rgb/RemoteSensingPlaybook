@@ -124,7 +124,7 @@ You will also find combinations of these tools with remote sensing data formats 
 ---
 ## What's Next?
 You can continue to:
-- Go to Chapter [III – Downloading Remote Sensing Data](../III_data_download/readme.md)
+- Go to Chapter [III – Downloading Remote Sensing Data](../III-Data_download/)
 - Or return to the [Project Overview](../README.md)
 
  
