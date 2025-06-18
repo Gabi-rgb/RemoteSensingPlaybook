@@ -91,7 +91,7 @@ Choose the .whl who satisfy your profile and your need.
 ### *Second step*
   Next enter your virtual environment (see How to pip in the environment) and type :
 
-    pip install C:\chemin\vers\fichier\gdal-3.10.2-cp312-cp312-win_amd64.whl
+    pip install C:\path\to\file\gdal-3.10.2-cp312-cp312-win_amd64.whl
 
 
 ---
@@ -123,12 +123,6 @@ You will also find combinations of these tools with remote sensing data formats 
 
 ---
 
-## 6. Summary and What’s Next
-
-In this chapter, we introduced the essential tools for working with remote sensing data using Python. The next steps will involve:
-- Downloading real data
-- Practicing with real-world examples
-- Applying what you’ve learned through geospatial analysis and modeling
 
 ➡️ [Go to Chapter III – Downloading Remote Sensing Data](../III_data_download/data_download.md)
  
