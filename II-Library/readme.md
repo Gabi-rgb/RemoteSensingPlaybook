@@ -1,4 +1,4 @@
-# Chapter II: Python Libraries for Remote Sensing
+# Chapter II : Python Libraries for Remote Sensing
 
 ---
 
