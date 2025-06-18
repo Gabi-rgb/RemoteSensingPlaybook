@@ -12,9 +12,9 @@ Whether you're just starting out, revising key concepts, or exploring tools like
 
 ## Project Structure
 
-- [Chapter I – Introduction to Remote Sensing](I_Intro/)
+- [Chapter I – Introduction to Remote Sensing](I-Intro/)
 - [Chapter II – Python Libraries for Remote Sensing](II-Library/)
-- Chapter III – *To come...* (Downloading satellite data)
+- [Chapter III – Downloading satellite data](III-Data_download/)
 - Chapter IV – *To come...* (Preprocessing: alignment, reprojection, etc.)
 
 More chapters will be added progressively as I learn and build.
