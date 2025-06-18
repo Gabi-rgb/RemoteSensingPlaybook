@@ -86,10 +86,10 @@ Look into the asset and find the correct .whl. We are searching for a file looki
 
 3.10.2 is gdal version, cp312 is the python version(3.12 here), and finally win_amd64 is your systems (windows 64 bit here).
 
-Choose the .whl who satisfy your profile and your need.
+Choose the .whl that matches your Python version and your system architecture.
 
 ### *Second step*
-  Next enter your virtual environment (see How to pip in the environment) and type :
+  Activate your virtual environment (see “How to pip in the environment” above), then run : 
 
     pip install C:\path\to\file\gdal-3.10.2-cp312-cp312-win_amd64.whl
 
