@@ -78,5 +78,5 @@ Useful Python libraries:
 
 ## What's Next?
 You can continue to:
-- Go to Chapter [II – Python Libraries for Remote Sensing](../II-Library/readme.md)
+- Go to Chapter [II – Python Libraries for Remote Sensing](../II-Library/)
 - Or return to the [Project Overview](../README.md)
