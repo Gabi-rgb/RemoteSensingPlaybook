@@ -122,8 +122,9 @@ Common libraries include:
 You will also find combinations of these tools with remote sensing data formats in advanced workflows.
 
 ---
-
-- [Go to Chapter III – Downloading Remote Sensing Data](../III_data_download/readme.md)
+## What's Next?
+You can continue to:
+- Go to Chapter [III – Downloading Remote Sensing Data](../III_data_download/readme.md)
 - Or return to the [Project Overview](../README.md)
 
  
