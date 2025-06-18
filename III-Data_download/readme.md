@@ -2,6 +2,7 @@
 
 Remote sensing data is freely available from several platforms, but understanding where to get it and how to retrieve it efficiently is a key skill.
 
+---
 ## 1. Public Portals for Manual Download
 
 Several well-known websites allow you to manually search and download satellite imagery:
@@ -18,6 +19,7 @@ These portals let you search by date, location, satellite, and cloud cover, and 
 
 However, this manual method can quickly become time-consuming when dealing with large datasets or long time series.
 
+---
 ## 2. Automating Downloads with APIs
 
 To streamline the process, many platforms provide APIs or command-line tools. These allow you to automate and batch-download scenes, directly from your Python scripts or terminal.
@@ -29,6 +31,7 @@ Benefits of using APIs:
 
 - Integrate downloads directly into your processing pipeline
 
+---
 ## 3. Access Conditions
 
 While much of the data is free and open, some restrictions may apply:
@@ -41,6 +44,7 @@ While much of the data is free and open, some restrictions may apply:
 
 Be sure to read the terms of use and understand the access policy of each platform.
 
+---
 ## What's Next?
 You can continue to:
 - Go to Chapter [IV – Downloading Remote Sensing Data](../III-Data_download/)
