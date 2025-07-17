@@ -1,8 +1,7 @@
 from osgeo import gdal
+gdal.UseExceptions()
 import numpy as np
 import matplotlib.pyplot as plt
-
-gdal.UseExceptions()
 
 def read_and_stretch(path, vmin=None, vmax=None, pmin=2, pmax=98):
     """
