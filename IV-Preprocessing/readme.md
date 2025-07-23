@@ -9,14 +9,17 @@ Note: Most of the tasks here are based on GDAL, rasterio, and other geospatial l
 ---
 ## 1. Reprojection, Alignment & Cliping
 Ensure all input rasters share the same coordinate system, spatial resolution, and pixel grid. This step uses tools like gdalwarp.
+[*Reprojection_Alignment_Cliping*](../IV-Preprocessing/Reprojection_Alignment_Cliping.ipynb)
 
 ---
 ## 2. Merge, cloudmasking & Normalization
 Merge multiple scenes into one, apply cloud filtering (e.g. with QA bands or masks), and normalize reflectance values for better consistency across images.
+[*Merging_cloudmasking_normalization*](../IV-Preprocessing/merging_cloudmasking_normalization.ipynb)
 
 ---
 ## 3. Resampling & Pan-Sharpening
 Adapt rasters to a target resolution using various resampling techniques, and apply pan-sharpening to enhance spatial resolution using panchromatic bands.
+[*Resampling_Pansharpening*](../IV-Preprocessing/Resampling_Pansharpening.ipynb)
 
 ---
 ## 4. Stacking Multiband Rasters
@@ -26,5 +29,5 @@ Combine several single-band rasters (e.g. different dates or spectral bands) int
 ---
 ## What's Next?
 You can continue to:
-- Go to Chapter [IV – Downloading Remote Sensing Data](../III-Data_download/)
+- Go to Chapter [V – Downloading Remote Sensing Data](../V-Data_download/)
 - Or return to the [Project Overview](../)
