@@ -47,5 +47,5 @@ Be sure to read the terms of use and understand the access policy of each platfo
 ---
 ## What's Next?
 You can continue to:
-- Go to Chapter [IV – Downloading Remote Sensing Data](../III-Data_download/)
+- Go to Chapter [IV – Preprocessing](../IV-Preprocessing/)
 - Or return to the [Project Overview](../)
