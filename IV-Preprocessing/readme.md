@@ -14,7 +14,7 @@ Ensure all input rasters share the same coordinate system, spatial resolution, a
 ---
 ## 2. Merge, cloudmasking & Normalization
 Merge multiple scenes into one, apply cloud filtering (e.g. with QA bands or masks), and normalize reflectance values for better consistency across images.
-[*Merging_cloudmasking_normalization*](../IV-Preprocessing/merging_cloudmasking_normalization.ipynb)
+[*Merging_cloudmasking_normalization*](../IV-Preprocessing/Merging_cloudmasking_normalization.ipynb)
 
 ---
 ## 3. Resampling & Pan-Sharpening
