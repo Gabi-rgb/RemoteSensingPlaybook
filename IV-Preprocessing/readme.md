@@ -2,54 +2,29 @@
 
 Preprocessing is a crucial step in any remote sensing workflow. It transforms raw satellite data into clean, analysis-ready information. In this section, we’ll walk through several essential operations needed before starting classification, analysis, or visualization.
 
----
-
 Each subsection below links to a dedicated script or notebook illustrating the operation.
 
 Note: Most of the tasks here are based on GDAL, rasterio, and other geospatial libraries.
 
-📌 Overview of Preprocessing Tasks
-## 1. Reprojection, Alignment & Resizing
+---
+## 1. Reprojection, Alignment & Cliping
+Ensure all input rasters share the same coordinate system, spatial resolution, and pixel grid. This step uses tools like gdalwarp.
 
-Ensure all rasters share the same projection, pixel alignment, and resolution.
+---
+## 2. Merge, cloudmasking & Normalization
+Merge multiple scenes into one, apply cloud filtering (e.g. with QA bands or masks), and normalize reflectance values for better consistency across images.
 
-## 1. Clipping, Cloud Masking, Merging
+---
+## 3. Resampling & Pan-Sharpening
+Adapt rasters to a target resolution using various resampling techniques, and apply pan-sharpening to enhance spatial resolution using panchromatic bands.
 
-Cut rasters to your area of interest, remove cloud-covered areas, and merge adjacent scenes.
+---
+## 4. Stacking Multiband Rasters
+Combine several single-band rasters (e.g. different dates or spectral bands) into a multi-band stack for machine learning or time-series analysis.
+[*Stack*](../IV-Preprocessing/Stacking.ipynb)
 
-## 1. Stacking Multiple Rasters
-
-Combine multiple bands or dates into a single multi-layer GeoTIFF.
-
-
-## 1. CRS Harmonization
-
-Reproject all datasets into a common CRS (e.g., EPSG:4326 or UTM).
-
-## 1. Resampling
-
-Unify spatial resolutions (e.g., Sentinel-2 20m → 10m) using bilinear, cubic, or nearest methods.
-
-## 1. Raster Normalization
-
-Normalize pixel values (e.g., min-max scaling) for machine learning or statistics.
-
-## 1. Vector Mask Clipping
-
-Clip rasters using vector files like shapefiles or GeoJSON.
-
-## 1. NoData Handling
-
-Fix missing values or nodata pixels to avoid errors in downstream processing.
-
-## 1. Creating Masks
-
-Generate binary masks for clouds, water, vegetation, etc. using band thresholds or QA layers.
-
-📦 Bonus (Optional)
-
-    🔄 Compression & optimization of GeoTIFFs (gdal_translate)
-
-    🧩 Tiling large rasters for batch processing
-
-    📆 Time filtering based on cloud cover or acquisition dates
+---
+## What's Next?
+You can continue to:
+- Go to Chapter [IV – Downloading Remote Sensing Data](../III-Data_download/)
+- Or return to the [Project Overview](../)
