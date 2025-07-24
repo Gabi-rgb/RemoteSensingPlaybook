@@ -15,6 +15,7 @@ Whether you're just starting out, revising key concepts, or exploring tools like
 - [Chapter I – Introduction to Remote Sensing](I-Intro/)
 - [Chapter II – Python Libraries for Remote Sensing](II-Library/)
 - [Chapter III – Downloading satellite data](III-Data_download/)
-- Chapter IV – *To come...* (Preprocessing: alignment, reprojection, etc.)
+- [Chapter IV – Preprocessing](IV-Preprocessing/)
+- [Chapter V – Analysis & Feature extraction](V Analysis & Feature extraction/)
 
 More chapters will be added progressively as I learn and build.
