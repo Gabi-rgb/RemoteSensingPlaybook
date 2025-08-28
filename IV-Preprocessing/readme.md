@@ -29,5 +29,5 @@ Combine several single-band rasters (e.g. different dates or spectral bands) int
 ---
 ## What's Next?
 You can continue to:
-- Go to Chapter [V – Downloading Remote Sensing Data](../V-Analysis/)
+- Go to Chapter [V – Analysis](../V-Analysis/)
 - Or return to the [Project Overview](../)
